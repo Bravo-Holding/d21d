@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH="$HOME/ebravoholding.com/pages/desafios/21d/"
+    - export DEPLOYPATH="$HOME/ebravoholding.com/pages/desafios/d21d/"
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R index.html og-image.jpg favicon $DEPLOYPATH
     - /bin/mkdir -p $DEPLOYPATH/assets/depoimentos

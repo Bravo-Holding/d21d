@@ -1,0 +1,14 @@
+# Internos — não publicar
+CLAUDE.md
+.claude/
+.DS_Store
+TODO.md
+
+# Fontes de arte (não vão pro deploy; só o og-image.jpg gerado vai)
+banner.png
+banner.psd
+
+# Imagens-fonte: só os .avif vão pro repo/deploy. Os .jpg/.webp são fonte local
+# (todo print novo: converter pra .avif antes de subir).
+assets/**/*.jpg
+assets/**/*.webp
